@@ -1,0 +1,35 @@
+{
+  "documents": [
+    {
+      "tag": "COI",
+      "file": "certificate_of_incorporation.pdf",
+      "valid_until": "2030-12-31",
+      "notes": "Rename to match your files; copy to vault_manifest.json"
+    },
+    {
+      "tag": "GST",
+      "file": "gst_certificate.pdf",
+      "valid_until": "2027-06-15"
+    },
+    {
+      "tag": "PAN",
+      "file": "pan_card.pdf",
+      "valid_until": null
+    },
+    {
+      "tag": "ISO9001",
+      "file": "iso_9001.pdf",
+      "valid_until": "2028-09-01"
+    },
+    {
+      "tag": "CMMI",
+      "file": "cmmi_level3.pdf",
+      "valid_until": "2026-12-31"
+    },
+    {
+      "tag": "OEM",
+      "file": "oem_authorization_acme.pdf",
+      "valid_until": "2026-03-01"
+    }
+  ]
+}

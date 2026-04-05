@@ -1,0 +1,66 @@
+:root {
+  font-family: system-ui, Segoe UI, Roboto, sans-serif;
+  color: #e8eaed;
+  background: #0f1419;
+}
+body { margin: 0; }
+.wrap { max-width: 52rem; margin: 0 auto; padding: 2rem 1.25rem; }
+h1 { font-size: 1.75rem; font-weight: 600; margin: 0 0 0.5rem; }
+.lead { color: #9aa0a6; margin: 0 0 1.5rem; line-height: 1.5; }
+.card {
+  background: #1a2332;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #2d3a4d;
+}
+h2 { font-size: 1.1rem; margin: 0 0 1rem; }
+label { display: block; font-size: 0.85rem; color: #9aa0a6; margin: 0.75rem 0 0.35rem; }
+input[type="text"] {
+  width: 100%;
+  max-width: 28rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 8px;
+  border: 1px solid #3d4d63;
+  background: #0f1419;
+  color: inherit;
+  box-sizing: border-box;
+}
+.file {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.file input { display: none; }
+.file span {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #2d4a7c;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+button#go {
+  margin-top: 1rem;
+  padding: 0.6rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+button#go:hover { background: #2563eb; }
+.status { margin-top: 1rem; font-size: 0.9rem; color: #a8b3cf; }
+.out {
+  background: #0a0e14;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow: auto;
+  max-height: 70vh;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  border: 1px solid #2d3a4d;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+code { font-size: 0.9em; background: #2d3a4d; padding: 0.1em 0.35em; border-radius: 4px; }

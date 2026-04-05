@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - tender_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  tender_data:
